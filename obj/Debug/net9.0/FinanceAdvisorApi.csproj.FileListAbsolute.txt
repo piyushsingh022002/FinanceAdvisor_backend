@@ -1,3 +1,11 @@
+/Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.csproj.AssemblyReference.cache
+/Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.AssemblyInfoInputs.cache
+/Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.AssemblyInfo.cs
+/Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.csproj.CoreCompileInputs.cache
+/Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.MvcApplicationPartsAssemblyInfo.cache
+/Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.sourcelink.json
 /Users/piyush/FinanceAdvisorApi/bin/Debug/net9.0/appsettings.Development.json
 /Users/piyush/FinanceAdvisorApi/bin/Debug/net9.0/appsettings.json
 /Users/piyush/FinanceAdvisorApi/bin/Debug/net9.0/FinanceAdvisorApi.staticwebassets.endpoints.json
@@ -22,14 +30,10 @@
 /Users/piyush/FinanceAdvisorApi/bin/Debug/net9.0/Microsoft.OpenApi.dll
 /Users/piyush/FinanceAdvisorApi/bin/Debug/net9.0/Npgsql.dll
 /Users/piyush/FinanceAdvisorApi/bin/Debug/net9.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/piyush/FinanceAdvisorApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/piyush/FinanceAdvisorApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/piyush/FinanceAdvisorApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/piyush/FinanceAdvisorApi/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
-/Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.csproj.AssemblyReference.cache
-/Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.GeneratedMSBuildEditorConfig.editorconfig
-/Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.AssemblyInfoInputs.cache
-/Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.AssemblyInfo.cs
-/Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.csproj.CoreCompileInputs.cache
-/Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.MvcApplicationPartsAssemblyInfo.cs
-/Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.MvcApplicationPartsAssemblyInfo.cache
 /Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/scopedcss/bundle/FinanceAdvisorApi.styles.css
 /Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/staticwebassets.build.json
 /Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/staticwebassets.development.json
@@ -46,7 +50,3 @@
 /Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.pdb
 /Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.genruntimeconfig.cache
 /Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/ref/FinanceAdvisorApi.dll
-/Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.sourcelink.json
-/Users/piyush/FinanceAdvisorApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
-/Users/piyush/FinanceAdvisorApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
-/Users/piyush/FinanceAdvisorApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll

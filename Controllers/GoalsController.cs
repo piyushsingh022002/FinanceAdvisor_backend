@@ -22,33 +22,71 @@ namespace FinanceAdvisorApi.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] FinancialGoalDto dto)
         {
-            var goal = new FinancialGoal
-            {
-                UserId = User.FindFirstValue(ClaimTypes.NameIdentifier),
-                Name = dto.Name,
-                TargetAmount = dto.TargetAmount,
-                CurrentAmount = dto.CurrentAmount,
-                Deadline = dto.Deadline
-            };
-            _context.FinancialGoals.Add(goal);
-            await _context.SaveChangesAsync();
-            return Ok(goal);
+            // var goal = new FinancialGoal
+            // {
+            //     UserId = User.FindFirstValue(ClaimTypes.NameIdentifier),
+            //     Name = dto.Name,
+            //     TargetAmount = dto.TargetAmount,
+            //     CurrentAmount = dto.CurrentAmount,
+            //     Deadline = dto.Deadline
+            // };
+            // _context.FinancialGoals.Add(goal);
+            // await _context.SaveChangesAsync();
+            // return Ok(goal);
+
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+    if (userId == null)
+    {
+        return Unauthorized();
+    }
+
+    var goal = new FinancialGoal
+    {
+        UserId = userId,
+        Name = dto.Name,
+        TargetAmount = dto.TargetAmount,
+        CurrentAmount = dto.CurrentAmount,
+        Deadline = dto.Deadline
+    };
+    
+    _context.FinancialGoals.Add(goal);
+    await _context.SaveChangesAsync();
+    return Ok(goal);
         }
 
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var goals = await _context.FinancialGoals
-                .Where(g => g.UserId == userId)
-                .ToListAsync();
-            return Ok(goals);
+            // var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            // var goals = await _context.FinancialGoals
+            //     .Where(g => g.UserId == userId)
+            //     .ToListAsync();
+            // return Ok(goals);
+
+              var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+    if (userId == null)
+    {
+        return Unauthorized();
+    }
+
+    if (_context.FinancialGoals == null)
+    {
+        return StatusCode(500, "FinancialGoals data is unavailable.");
+    }
+
+    var goals = await _context.FinancialGoals
+        .Where(g => g.UserId == userId)
+        .ToListAsync();
+
+    return Ok(goals);
         }
     }
 
     public class FinancialGoalDto
     {
-        public string Name { get; set; }
+        public string? Name { get; set; }
         public decimal TargetAmount { get; set; }
         public decimal CurrentAmount { get; set; }
         public DateTime Deadline { get; set; }
