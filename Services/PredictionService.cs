@@ -15,7 +15,7 @@ namespace FinanceAdvisorApi.Services
             _httpClient = httpClient;
         }
 
-        public async Task<decimal> GetSpendingPrediction(string userId, List<Transaction> transactions)
+        public async Task<decimal> GetSpendingPrediction(string userId, List<Models.Transaction> transactions)
         {
             var requestData = new { UserId = userId, Transactions = transactions };
             var content = new StringContent(
