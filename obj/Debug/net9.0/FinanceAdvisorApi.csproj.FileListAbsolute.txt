@@ -46,3 +46,7 @@
 /Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.pdb
 /Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.genruntimeconfig.cache
 /Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/ref/FinanceAdvisorApi.dll
+/Users/piyush/FinanceAdvisorApi/obj/Debug/net9.0/FinanceAdvisorApi.sourcelink.json
+/Users/piyush/FinanceAdvisorApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/piyush/FinanceAdvisorApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/piyush/FinanceAdvisorApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
