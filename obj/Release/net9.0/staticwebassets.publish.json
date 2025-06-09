@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "00BnXOzW2k306PsMRZzOi/e9dSzc+BQqnLWLexb1KxI=",
+  "Source": "FinanceAdvisorApi",
+  "BasePath": "_content/FinanceAdvisorApi",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
