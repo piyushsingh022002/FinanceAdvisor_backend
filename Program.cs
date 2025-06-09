@@ -13,6 +13,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHttpClient<PredictionService>();
 
+builder.Services.AddScoped<EmailService>();
+builder.Services.AddHostedService<NotificationService>();
+
 // Add CORS
 builder.Services.AddCors(options =>
 {
