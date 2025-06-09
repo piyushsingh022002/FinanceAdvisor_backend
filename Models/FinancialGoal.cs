@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Identity;
+
 namespace FinanceAdvisorApi.Models
 {
     public class FinancialGoal
